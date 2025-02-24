@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/developer12/Documentos/MiAplicacionBlazor/MiAplicacionBlazor.csproj": {}
+    "/home/developer12/Documentos/testBlazor/MiAplicacionBlazor.csproj": {}
   },
   "projects": {
-    "/home/developer12/Documentos/MiAplicacionBlazor/MiAplicacionBlazor.csproj": {
+    "/home/developer12/Documentos/testBlazor/MiAplicacionBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/developer12/Documentos/MiAplicacionBlazor/MiAplicacionBlazor.csproj",
+        "projectUniqueName": "/home/developer12/Documentos/testBlazor/MiAplicacionBlazor.csproj",
         "projectName": "MiAplicacionBlazor",
-        "projectPath": "/home/developer12/Documentos/MiAplicacionBlazor/MiAplicacionBlazor.csproj",
+        "projectPath": "/home/developer12/Documentos/testBlazor/MiAplicacionBlazor.csproj",
         "packagesPath": "/home/developer12/.nuget/packages/",
-        "outputPath": "/home/developer12/Documentos/MiAplicacionBlazor/obj/",
+        "outputPath": "/home/developer12/Documentos/testBlazor/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/developer12/.nuget/NuGet/NuGet.Config"
