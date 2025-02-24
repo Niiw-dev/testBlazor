@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/app/blazor/MiAplicacionBlazor.csproj": {}
+    "/home/developer12/Documentos/MiAplicacionBlazor/MiAplicacionBlazor.csproj": {}
   },
   "projects": {
-    "/app/blazor/MiAplicacionBlazor.csproj": {
+    "/home/developer12/Documentos/MiAplicacionBlazor/MiAplicacionBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/app/blazor/MiAplicacionBlazor.csproj",
+        "projectUniqueName": "/home/developer12/Documentos/MiAplicacionBlazor/MiAplicacionBlazor.csproj",
         "projectName": "MiAplicacionBlazor",
-        "projectPath": "/app/blazor/MiAplicacionBlazor.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/app/blazor/obj/",
+        "projectPath": "/home/developer12/Documentos/MiAplicacionBlazor/MiAplicacionBlazor.csproj",
+        "packagesPath": "/home/developer12/.nuget/packages/",
+        "outputPath": "/home/developer12/Documentos/MiAplicacionBlazor/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/developer12/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -56,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/developer12/.dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
         }
       }
     }
