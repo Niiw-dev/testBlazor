@@ -1,17 +1,26 @@
 # Usamos una imagen base de .NET SDK para desarrollo
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 
-# Establecemos el directorio de trabajo para el contenedor
+# Establecer el directorio de trabajo
 WORKDIR /app/blazor
 
-# Copiamos los archivos del proyecto Blazor al contenedor
-COPY . .
+# Copiar solo los archivos de proyecto primero para aprovechar el caché de Docker
+COPY *.csproj ./
 
-# Restauramos las dependencias de NuGet
+# Restaurar las dependencias de NuGet
 RUN dotnet restore
 
-# Exponemos el puerto necesario para la aplicación Blazor
+# Copiar el resto de los archivos
+COPY . .
+
+# Limpiar el caché de NuGet (opcional pero recomendado para optimizar el tamaño)
+RUN dotnet nuget locals all --clear
+
+# Exponer el puerto 80 para la aplicación Blazor
 EXPOSE 80
 
-# Usamos el comando para ejecutar el servidor de desarrollo de .NET
-ENTRYPOINT ["dotnet", "watch", "run", "--urls", "http://0.0.0.0:80"]
+# Ejecutar las migraciones de la base de datos si fuera necesario
+# RUN dotnet ef database update (si tienes migraciones en tu proyecto Blazor)
+
+# Comando por defecto para ejecutar el servidor de desarrollo
+CMD ["dotnet", "watch", "run", "--urls", "http://0.0.0.0:80"]

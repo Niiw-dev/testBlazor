@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rqbW9QfHgo8=",
+  "dgSpecHash": "5k+dsifXKCK4htH2bJrdk2gRRgESovqvQlihk/rpu9RwAVLog/KGPQvvT7N89B/DFp8qm7nWEjxavljw7erenw==",
   "success": true,
-  "projectFilePath": "/home/developer12/Documentos/testBlazor/MiAplicacionBlazor.csproj",
+  "projectFilePath": "/app/blazor/MiAplicacionBlazor.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
