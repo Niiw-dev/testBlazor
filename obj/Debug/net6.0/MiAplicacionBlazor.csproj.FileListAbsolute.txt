@@ -33,7 +33,6 @@
 /app/blazor/bin/Debug/net6.0/MiAplicacionBlazor.runtimeconfig.json
 /app/blazor/bin/Debug/net6.0/MiAplicacionBlazor.dll
 /app/blazor/bin/Debug/net6.0/MiAplicacionBlazor.pdb
-/app/blazor/obj/Debug/net6.0/MiAplicacionBlazor.csproj.AssemblyReference.cache
 /app/blazor/obj/Debug/net6.0/MiAplicacionBlazor.GeneratedMSBuildEditorConfig.editorconfig
 /app/blazor/obj/Debug/net6.0/MiAplicacionBlazor.AssemblyInfoInputs.cache
 /app/blazor/obj/Debug/net6.0/MiAplicacionBlazor.AssemblyInfo.cs
@@ -52,3 +51,12 @@
 /app/blazor/obj/Debug/net6.0/MiAplicacionBlazor.pdb
 /app/blazor/obj/Debug/net6.0/MiAplicacionBlazor.genruntimeconfig.cache
 /app/blazor/obj/Debug/net6.0/ref/MiAplicacionBlazor.dll
+/app/blazor/bin/Debug/net6.0/MiAplicacionBlazor.staticwebassets.endpoints.json
+/app/blazor/obj/Debug/net6.0/MiAplicacionBlazor.sourcelink.json
+/app/blazor/obj/Debug/net6.0/staticwebassets.build.endpoints.json
+/app/blazor/obj/Debug/net6.0/staticwebassets/msbuild.MiAplicacionBlazor.Microsoft.AspNetCore.StaticWebAssets.props
+/app/blazor/obj/Debug/net6.0/staticwebassets/msbuild.MiAplicacionBlazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/app/blazor/obj/Debug/net6.0/staticwebassets/msbuild.build.MiAplicacionBlazor.props
+/app/blazor/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.MiAplicacionBlazor.props
+/app/blazor/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.MiAplicacionBlazor.props
+/app/blazor/obj/Debug/net6.0/staticwebassets.pack.json
